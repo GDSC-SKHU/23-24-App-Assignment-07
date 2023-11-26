@@ -1,0 +1,22 @@
+name: flutter_auth
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  location: ^4.3.3
+  dio: ^5.3.3
+  gap: ^3.0.1
+  http: ^0.13.3
+  geolocator: ^7.1.0
+  cupertino_icons: ^1.0.2
+  flutter_secure_storage: ^9.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
