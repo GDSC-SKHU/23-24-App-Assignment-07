@@ -2,11 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:state_management/Weather/Model/Data/TimeInfo.dart';
 import 'package:state_management/Weather/Model/Data/picture.dart';
-import 'package:state_management/Weather/Model/Data/weather.dart';
-import 'package:state_management/Weather/Model/locationModel.dart';
+import 'package:state_management/Weather/Model/Data/Weather.dart';
+import 'package:state_management/Weather/Model/LocationModel.dart';
 import 'package:state_management/Weather/View/storageScreen.dart';
 import 'package:state_management/Weather/ViewModel/storageController.dart';
 
+//검색을 했을 때 나오는 화면
 class WeatherSearchScreen extends StatefulWidget {
   final String initialCity;
   const WeatherSearchScreen({Key? key, required this.initialCity})

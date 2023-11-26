@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 import 'package:state_management/Weather/Model/Data/TimeInfo.dart';
 import 'package:state_management/Weather/View/MainScreen.dart';
-import 'package:state_management/Weather/Model/locationModel.dart';
+import 'package:state_management/Weather/Model/LocationModel.dart';
 
 class Storage extends ChangeNotifier {
   // 현재시간 저장

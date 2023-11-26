@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:state_management/Weather/Model/Data/weather.dart';
+import 'package:state_management/Weather/Model/Data/Weather.dart';
 import 'package:state_management/Weather/Model/Data/picture.dart';
-import 'package:state_management/Weather/Model/locationModel.dart';
+import 'package:state_management/Weather/Model/LocationModel.dart';
 import 'package:state_management/Weather/View/weatherSearchScreen.dart';
 
 // 로그인하고 바로 이동하는 페이지
